@@ -11,10 +11,10 @@ namespace AX_Data
     class Program
     {
 
-        public static string aadTenant = ""  //https://login.windows.net/onCompanyName.onmicrosoft.com;
-        public static string aadClientAppId = ""  //AppGUID;
-        public static string aadClientAppSecret = "" //AppSecret;
-        public static string aadResource = "" //https://CompanyName.operations.dynamics.com;
+        public static string aadTenant = "";  //https://login.windows.net/onCompanyName.onmicrosoft.com;
+        public static string aadClientAppId = "";  //AppGUID;
+        public static string aadClientAppSecret = ""; //AppSecret;
+        public static string aadResource = ""; //https://CompanyName.operations.dynamics.com;
         public static string connString = "Server=CompanyServer;Database=CompanyDatabase;Trusted_Connection=True;";
         public static string[] entities = new string[] { "LoanedEquipments", "LoanItems", "Positions", "Workers", "People" };
 
