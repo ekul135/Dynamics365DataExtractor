@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using Newtonsoft.Json;
 using System.Data;
 
-namespace AX_Data
+namespace Dynamics365DataExtractor
 {
     class Program
     {
